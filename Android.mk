@@ -29,7 +29,7 @@ LOCAL_REQUIRED_MODULES := \
         libwebviewchromium_loader \
         libwebviewchromium_plat_support
 
-LOCAL_MODULE_TARGET_ARCH := arm arm64 x86 x86_64
+LOCAL_MODULE_TARGET_ARCH := arm arm64 x86
 my_src_arch := $(call get-prebuilt-src-arch,$(LOCAL_MODULE_TARGET_ARCH))
 LOCAL_SRC_FILES := prebuilt/$(my_src_arch)/webview.apk
 
