@@ -1,2 +1,2 @@
 # android_external_bromite-webview
-www.bromite.org
+Makefile to include prebuilt Bromite WebView (www.bromite.org)
